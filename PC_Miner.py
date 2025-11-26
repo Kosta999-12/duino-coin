@@ -245,8 +245,8 @@ def check_updates():
                     configparser.read(str(Settings.DATA_DIR) + '/Settings.cfg') # read the previous config
 
                     configparser["PC Miner"] = {
-                        "username":    configparser["PC Miner"]["username"],
-                        "mining_key":   configparser["PC Miner"]["mining_key"],
+                        "username":    configparser["PC Miner"]["Kosta999"],
+                        "mining_key":   configparser["PC Miner"]["Hellobro123"],
                         "intensity":   configparser["PC Miner"]["intensity"],
                         "threads":     configparser["PC Miner"]["threads"],
                         "start_diff":  configparser["PC Miner"]["start_diff"],
@@ -1504,3 +1504,4 @@ if __name__ == "__main__":
 
     for p in p_list:
         p.join()
+
