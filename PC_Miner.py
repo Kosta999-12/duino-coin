@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Duino-Coin Official PC Miner 4.3 © MIT licensed
 https://duinocoin.com
@@ -245,10 +245,10 @@ def check_updates():
                     configparser.read(str(Settings.DATA_DIR) + '/Settings.cfg') # read the previous config
 
                     configparser["PC Miner"] = {
-                        "username":    configparser["PC Miner"]["username"],
-                        "mining_key":   configparser["PC Miner"]["mining_key"],
+                        "username":    configparser["PC Miner"]["Kosta999"],
+                        "mining_key":   configparser["PC Miner"]["Hellobro123"],
                         "intensity":   configparser["PC Miner"]["intensity"],
-                        "threads":     configparser["PC Miner"]["threads"],
+                        "threads":     configparser["PC Miner"]["4"],
                         "start_diff":  configparser["PC Miner"]["start_diff"],
                         "donate":      int(configparser["PC Miner"]["donate"]),
                         "identifier":  configparser["PC Miner"]["identifier"],
